@@ -1,0 +1,24 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "main": "fetchJson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon trail.js"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "parser": "^0.1.4",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.31.0",
+    "type": "fetchJson"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
